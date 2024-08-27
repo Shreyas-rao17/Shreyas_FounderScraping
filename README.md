@@ -31,7 +31,7 @@ CompanyName
 Apple Inc.
 Google LLC
 Microsoft Corporation
-
+```
 ## Logging
 
 The script logs its activities in `scraping.log`, which can be checked for detailed error messages or processing steps.
