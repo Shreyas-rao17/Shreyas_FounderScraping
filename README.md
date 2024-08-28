@@ -67,10 +67,11 @@ The script logs its activities in `scraping.log`, which can be checked for detai
    - The Bing Search API offers advanced search capabilities and could potentially provide more accurate results compared to Google Search. Integrating it could enhance the quality of the data retrieved from web searches.
 
 2. **OpenAI API**
-   - OpenAI's language models, like GPT-4 or newer, could improve the extraction and generation of founder names from text. They are designed to understand and generate human-like text, which may yield more accurate results than the current Gemini model.
+   - OpenAI's language models, like GPT-4 or newer, could improve the extraction and generation of founder names from text. They are designed to understand and generate human-like text, which may yield more accurate results than the current Gemini model. I could not use the same since OpenAI has stopped issuing free user trials for its API. 
 
 3. **Named Entity Recognition (NER) Libraries**
    - Using advanced NER libraries such as SpaCy with pre-trained models or custom-trained models can enhance the extraction of specific entities like founder names from unstructured text. Integrating NER can improve accuracy in extracting relevant information from scraped content.
+   - I did try to integrate the same with my code but implementation lead to more commplications and hence did not use it. SpaCy would be a vital tool. 
 
 4. **Knowledge Graphs**
    - Incorporating knowledge graphs, such as those from companies like Wikidata or DBpedia, can provide a structured source of information about companies and their founders. This can complement the existing methods and improve result accuracy.
@@ -90,4 +91,11 @@ The script logs its activities in `scraping.log`, which can be checked for detai
   - Develop a user interface to allow users to input company names and view results interactively, which could make the tool more user-friendly.
 
 By integrating these improvements, the program's accuracy and efficiency in retrieving founder information can be significantly enhanced.
+
+## Challenges Faced
+- **CoreSignal API**
+  - Althought Coresignal seems to have more accurate data and much more friendly UI to generate API key, I could not successfully use it to generate any useful    
+response. The get_founder_and_website_from_coresignal() function has been made based on the documentation provided by Coresignal. It still hasn't generated 
+results.
+- ** Integration of SpaCy NLP Model**
 
