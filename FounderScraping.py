@@ -14,8 +14,8 @@ import os
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename='scraping.log', filemode='w')
 
 # Load API keys from environment variables (replace hardcoded values if needed)
-CORESIGNAL_API_KEY = 'your-coresignal-api-key'  # Replace with your Coresignal API key
-GEMINI_API_KEY = 'your-gemini-api-key'  # Replace with your Gemini API key
+CORESIGNAL_API_KEY = 'eyJhbGciOiJFZERTQSIsImtpZCI6IjQ3ZmFjZDgzLWQ1NmUtMjk3MC04YmNhLTkzNTY5OTc3MmU0MCJ9.eyJhdWQiOiIxODBkYy5vcmciLCJleHAiOjE3NTYxNTc1MTIsImlhdCI6MTcyNDYwMDU2MCwiaXNzIjoiaHR0cHM6Ly9vcHMuY29yZXNpZ25hbC5jb206ODMwMC92MS9pZGVudGl0eS9vaWRjIiwibmFtZXNwYWNlIjoicm9vdCIsInByZWZlcnJlZF91c2VybmFtZSI6IjE4MGRjLm9yZyIsInN1YiI6ImZhMGM0YzljLWMyMWMtZmZkZi1jMGI5LTQ4YWVkNWFmOWMxNiIsInVzZXJpbmZvIjp7InNjb3BlcyI6ImNkYXBpIn19.GoSZURZ8FcT9068yMbmPKnYxcN_ucQ01t26R8sNMgysbZj-tpNoUZRJdLJmVu0EoBlJ4SHYvSQtFeS5CJartBg'  # Replace with your Coresignal API key
+GEMINI_API_KEY = 'AIzaSyDDFHjerywhIiPSLpaSpM1559nlS2hm_UE'  # Replace with your Gemini API key
 CORESIGNAL_API_URL = "https://api.coresignal.com/cdapi/v1/linkedin/member/search/filter"
 
 def get_session():
