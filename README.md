@@ -97,5 +97,5 @@ By integrating these improvements, the program's accuracy and efficiency in retr
   - Althought Coresignal seems to have more accurate data and much more friendly UI to generate API key, I could not successfully use it to generate any useful    
 response. The get_founder_and_website_from_coresignal() function has been made based on the documentation provided by Coresignal. It still hasn't generated 
 results.
-- ** Integration of SpaCy NLP Model**
+- **Integration of SpaCy NLP Model**
 
